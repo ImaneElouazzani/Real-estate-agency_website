@@ -277,7 +277,22 @@ img.active {
     height: 50px;
 }
 
+/* *******************footer**************** */
+
+footer {
+    border-top: 1px dashed #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
 /* *************Responsive******************* */
+
+@media screen and (max-width: 1300px){
+    .cont-medias{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1200px){
     .grille-accueil {
@@ -323,7 +338,7 @@ img.active {
 
     .grille-accueil {
         width: 100%;
-        height: 100vh;
+        height: 1500px;
         display: flex;
         flex-direction: column;
     }
@@ -363,7 +378,11 @@ img.active {
     }
 }
 
-
+@media screen and (max-width: 550px){
+    .grille-accueil{
+        height: 1700px;
+    }
+}
 
 
 
