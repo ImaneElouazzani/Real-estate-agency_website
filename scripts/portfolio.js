@@ -23,7 +23,7 @@ allPicsPortfolio.forEach(item => {
 
 rightPortfolio.addEventListener('click', () => {
 
-    if(indexEnCours === 11) {
+    if(indexEnCours === 20) {
         indexEnCours = 0;
         srcEnCoursSlider.src = allPicsPortfolio[indexEnCours].src;
         photoEnCours = allPicsPortfolio[indexEnCours];
@@ -41,7 +41,7 @@ rightPortfolio.addEventListener('click', () => {
 leftPortfolio.addEventListener('click', () => {
 
     if(indexEnCours === 0) {
-        indexEnCours = 11;
+        indexEnCours = 20;
         srcEnCoursSlider.src = allPicsPortfolio[indexEnCours].src;
         photoEnCours = allPicsPortfolio[indexEnCours];
         console.log(indexEnCours);
