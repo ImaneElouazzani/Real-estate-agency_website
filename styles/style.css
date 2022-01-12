@@ -89,7 +89,7 @@ body {
 
 .presentation {
     grid-area: 2 / 1 / 3 / 2;
-    background: lightseagreen;
+    background: rgba(58, 195, 172, 0.726);
     padding: 40px;
 }
 .presentation img {
@@ -245,7 +245,7 @@ img.active {
 
 .contact {
     grid-area: 3 / 3 / 4 / 4;
-    background: #f6db51;
+    background: #f3db64ea;
     color: #000;
     position: relative;
     display: flex;
